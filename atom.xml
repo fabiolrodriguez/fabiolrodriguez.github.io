@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Fabio Rodriguez]]></title>
+  <link href="http://fabiolrodriguez.github.io/atom.xml" rel="self"/>
+  <link href="http://fabiolrodriguez.github.io/"/>
+  <updated>2015-10-28T15:56:11-02:00</updated>
+  <id>http://fabiolrodriguez.github.io/</id>
+  <author>
+    <name><![CDATA[Fabio Rodriguez]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Olá Octopress]]></title>
+    <link href="http://fabiolrodriguez.github.io/blog/2015/10/28/ola-octopress/"/>
+    <updated>2015-10-28T15:12:06-02:00</updated>
+    <id>http://fabiolrodriguez.github.io/blog/2015/10/28/ola-octopress</id>
+    <content type="html"><![CDATA[<p>dnf install ruby rubygems ruby-devel rake git</p>
+
+<p>git clone git://github.com/imathis/octopress.git octopress</p>
+
+<p>cd octopress</p>
+
+<p>gem install RedCloth -v &lsquo;4.2.9&rsquo;</p>
+
+<p>gem install bundler</p>
+
+<p>bundle install</p>
+
+<p>rake install</p>
+
+<p>rake setup_github_pages</p>
+
+<p>informar seu github git@github.com:username/username.github.io.git</p>
+
+<p>git@github.com:username/fabiolrodriguez.github.io.git</p>
+]]></content>
+  </entry>
+  
+</feed>

@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: 
+
+Sitemap: http://fabiolrodriguez.github.io/sitemap.xml 
