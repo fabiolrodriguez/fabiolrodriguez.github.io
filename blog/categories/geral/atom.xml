@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Geral | Fabio Rodriguez]]></title>
   <link href="http://fabiolrodriguez.github.io/blog/categories/geral/atom.xml" rel="self"/>
   <link href="http://fabiolrodriguez.github.io/"/>
-  <updated>2015-10-28T17:18:14-02:00</updated>
+  <updated>2015-10-28T17:20:52-02:00</updated>
   <id>http://fabiolrodriguez.github.io/</id>
   <author>
     <name><![CDATA[Fabio Rodriguez]]></name>
@@ -152,18 +152,22 @@
 
 <p>Vantagens sobre Wordpress:</p>
 
-<pre><code>* Quase sem custos
-* Hospedado no GitHub
-* Sem banco de dados
-* Posso escrever meus posts no VIM!
-</code></pre>
+<ul>
+<li>Quase sem custos</li>
+<li>Hospedado no GitHub</li>
+<li>Sem banco de dados</li>
+<li>Posso escrever meus posts no VIM!</li>
+</ul>
+
 
 <p>Desvantagens:</p>
 
-<pre><code>* Plataforma mais limitada
-* Texto editado via Markdown 
-* Não possui uma escalabilidade tão grande.
-</code></pre>
+<ul>
+<li>Plataforma mais limitada</li>
+<li>Texto editado via Markdown</li>
+<li>Não possui uma escalabilidade tão grande.</li>
+</ul>
+
 
 <p>Até a próxima!</p>
 ]]></content>
