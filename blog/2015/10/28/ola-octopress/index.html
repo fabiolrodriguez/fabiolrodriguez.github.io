@@ -152,24 +152,44 @@
 </span></code></pre></td></tr></table></div></figure>
 
 
+<p>Para escrever um post:</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'>rake new_post<span class="o">[</span><span class="s2">&quot;o titulo do seu post&quot;</span><span class="o">]</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>será criado o arquivo &hellip;/octopress/source/_posts, que deve ser editado e escrito o post utilizando a linguagem Markdown.</p>
+
+<p>Depois de escrito, vamos publicar!</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'>rake generate
+</span><span class='line'>
+</span><span class='line'>rake deploy
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Pela pouca experiêcia que tive, seguem minhas considerações:</p>
+
 <p>Vantagens sobre Wordpress:</p>
 
-<ul>
-<li>Quase sem custos</li>
-<li>Hospedado no GitHub</li>
-<li>Sem banco de dados</li>
-<li>Posso escrever meus posts no VIM!</li>
-</ul>
-
+<pre><code>* Quase sem custos
+* Hospedado no GitHub
+* Sem banco de dados
+* Posso escrever meus posts no VIM!
+</code></pre>
 
 <p>Desvantagens:</p>
 
-<ul>
-<li>Plataforma mais limitada</li>
-<li>Texto editado via Markdown</li>
-<li>Não possui uma escalabilidade tão grande.</li>
-</ul>
+<pre><code>* Plataforma mais limitada
+* Texto editado via Markdown 
+* Não possui uma escalabilidade tão grande.
+</code></pre>
 
+<p>Até a próxima!</p>
 </div>
 
 
