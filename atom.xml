@@ -4,7 +4,7 @@
   <title><![CDATA[Fabio Rodriguez]]></title>
   <link href="http://fabiolrodriguez.github.io/atom.xml" rel="self"/>
   <link href="http://fabiolrodriguez.github.io/"/>
-  <updated>2015-10-28T16:59:45-02:00</updated>
+  <updated>2015-10-28T17:11:15-02:00</updated>
   <id>http://fabiolrodriguez.github.io/</id>
   <author>
     <name><![CDATA[Fabio Rodriguez]]></name>
@@ -18,32 +18,92 @@
     <link href="http://fabiolrodriguez.github.io/blog/2015/10/28/ola-octopress/"/>
     <updated>2015-10-28T15:12:06-02:00</updated>
     <id>http://fabiolrodriguez.github.io/blog/2015/10/28/ola-octopress</id>
-    <content type="html"><![CDATA[<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+    <content type="html"><![CDATA[<p>Já fazia algum tempo que eu não escrevia com certa regularidade e, sempre ao final destes períodos começo a ter tremedeira. Nos últimos meses, quando cogitei voltar a escrever, estava decidido a usar meu bom e velho conhecido Wordpress.</p>
+
+<p>Afinal, ele é robusto, eficiente, amplamente utilizado e possui uma comunidade ativa.</p>
+
+<p>Só tem um porém, talvez seja muito para o que eu preciso!</p>
+
+<p>Não quer um site amplamente acessado, cheio de plugins para SEO, podcasts agregado, gerenciamento de um milhão de coisas.</p>
+
+<p>Só quero escrever, da maneira mais simples possível (e com o menor custo possível também).</p>
+
+<p>Foi durante algumas pesquisas que encontrei a plataforma Octopress.</p>
+
+<p>Sempre que exploramos algo novo, existe uma curva de aprendizado, então este primeiro post vai para compartilhar minhas anotações da instalação do Octopress utilizando Github Pages. Este procedimento foi executado no Fedora 22.</p>
+
+<p>Primeiro, instalamos os pré requisitos</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 </pre></td><td class='code'><pre><code class='bash'><span class='line'>dnf install ruby rubygems ruby-devel rake git
 </span></code></pre></td></tr></table></div></figure>
 
 
-<p>git clone git://github.com/imathis/octopress.git octopress</p>
+<p>Depois vamos clonar o repositório do Octopress no Github e fazer a instalação.</p>
 
-<p>cd octopress</p>
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'>git clone git://github.com/imathis/octopress.git octopress
+</span><span class='line'>
+</span><span class='line'><span class="nb">cd </span>octopress
+</span><span class='line'>
+</span><span class='line'>gem install RedCloth -v <span class="s1">&#39;4.2.9&#39;</span>
+</span><span class='line'>
+</span><span class='line'>gem install bundler
+</span><span class='line'>
+</span><span class='line'>bundle install
+</span><span class='line'>
+</span><span class='line'>rake install
+</span></code></pre></td></tr></table></div></figure>
 
-<p>gem install RedCloth -v &lsquo;4.2.9&rsquo;</p>
 
-<p>gem install bundler</p>
+<p>Agora só falta configurar as github pages:</p>
 
-<p>bundle install</p>
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'>rake setup_github_pages
+</span></code></pre></td></tr></table></div></figure>
 
-<p>rake install</p>
-
-<p>rake setup_github_pages</p>
 
 <p>informar seu repositório <a href="https://github.com/username/username.github.io.git">https://github.com/username/username.github.io.git</a></p>
 
 <p>Antes de gerar o site, precisamos corrigir um bug no Gemfile do Octopress.</p>
 
-<p>vim Gemfile</p>
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'>vim Gemfile
+</span><span class='line'>
+</span><span class='line'>gem <span class="s1">&#39;json&#39;</span>
+</span></code></pre></td></tr></table></div></figure>
 
-<p>gem &lsquo;json&rsquo;</p>
+
+<p>Vantagens sobre Wordpress:</p>
+
+<ul>
+<li>Quase sem custos</li>
+<li>Hospedado no GitHub</li>
+<li>Sem banco de dados</li>
+<li>Posso escrever meus posts no VIM!</li>
+</ul>
+
+
+<p>Desvantagens:</p>
+
+<ul>
+<li>Plataforma mais limitada</li>
+<li>Texto editado via Markdown</li>
+<li>Não possui uma escalabilidade tão grande.</li>
+</ul>
+
 ]]></content>
   </entry>
   
