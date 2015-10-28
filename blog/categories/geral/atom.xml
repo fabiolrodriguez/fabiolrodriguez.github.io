@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Geral | Fabio Rodriguez]]></title>
   <link href="http://fabiolrodriguez.github.io/blog/categories/geral/atom.xml" rel="self"/>
   <link href="http://fabiolrodriguez.github.io/"/>
-  <updated>2015-10-28T16:56:42-02:00</updated>
+  <updated>2015-10-28T16:59:45-02:00</updated>
   <id>http://fabiolrodriguez.github.io/</id>
   <author>
     <name><![CDATA[Fabio Rodriguez]]></name>
@@ -18,29 +18,39 @@
     <link href="http://fabiolrodriguez.github.io/blog/2015/10/28/ola-octopress/"/>
     <updated>2015-10-28T15:12:06-02:00</updated>
     <id>http://fabiolrodriguez.github.io/blog/2015/10/28/ola-octopress</id>
-    <content type="html"><![CDATA[<h1>dnf install ruby rubygems ruby-devel rake git</h1>
+    <content type="html"><![CDATA[<p><figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'>&lt;/p&gt;
+</span><span class='line'>
+</span><span class='line'>&lt;p&gt;dnf install ruby rubygems ruby-devel rake git&lt;/p&gt;
+</span><span class='line'>
+</span><span class='line'>&lt;p&gt;
+</span></code></pre></td></tr></table></div></figure></p>
 
-<h1>git clone git://github.com/imathis/octopress.git octopress</h1>
+<p>git clone git://github.com/imathis/octopress.git octopress</p>
 
-<h1>cd octopress</h1>
+<p>cd octopress</p>
 
-<h1>gem install RedCloth -v &lsquo;4.2.9&rsquo;</h1>
+<p>gem install RedCloth -v &lsquo;4.2.9&rsquo;</p>
 
-<h1>gem install bundler</h1>
+<p>gem install bundler</p>
 
-<h1>bundle install</h1>
+<p>bundle install</p>
 
-<h1>rake install</h1>
+<p>rake install</p>
 
-<h1>rake setup_github_pages</h1>
+<p>rake setup_github_pages</p>
 
 <p>informar seu repositório <a href="https://github.com/username/username.github.io.git">https://github.com/username/username.github.io.git</a></p>
 
 <p>Antes de gerar o site, precisamos corrigir um bug no Gemfile do Octopress.</p>
 
-<h1>vim Gemfile</h1>
+<p>vim Gemfile</p>
 
-<h1>gem &lsquo;json&rsquo;</h1>
+<p>gem &lsquo;json&rsquo;</p>
 ]]></content>
   </entry>
   
