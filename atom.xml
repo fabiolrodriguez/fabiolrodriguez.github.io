@@ -4,7 +4,7 @@
   <title><![CDATA[Fabio Rodriguez]]></title>
   <link href="http://fabiolrodriguez.github.io/atom.xml" rel="self"/>
   <link href="http://fabiolrodriguez.github.io/"/>
-  <updated>2015-10-28T17:40:10-02:00</updated>
+  <updated>2015-10-28T17:42:10-02:00</updated>
   <id>http://fabiolrodriguez.github.io/</id>
   <author>
     <name><![CDATA[Fabio Rodriguez]]></name>
@@ -30,7 +30,7 @@
 
 <p>Foi durante algumas pesquisas que encontrei a plataforma Octopress.</p>
 
-<p><img src="http://i.imgur.com/ezNxTFA.png"></p>
+<p><img class="center" src="http://i.imgur.com/ezNxTFA.png"></p>
 
 <p>Sempre que exploramos algo novo, existe uma curva de aprendizado, então este primeiro post vai para compartilhar minhas anotações da instalação do Octopress utilizando Github Pages. Este procedimento foi executado no Fedora 22.</p>
 
