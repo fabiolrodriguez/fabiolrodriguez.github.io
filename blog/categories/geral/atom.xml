@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Geral | Fabio Rodriguez]]></title>
   <link href="http://fabiolrodriguez.github.io/blog/categories/geral/atom.xml" rel="self"/>
   <link href="http://fabiolrodriguez.github.io/"/>
-  <updated>2015-10-29T09:54:33-02:00</updated>
+  <updated>2015-10-29T09:56:34-02:00</updated>
   <id>http://fabiolrodriguez.github.io/</id>
   <author>
     <name><![CDATA[Fabio Rodriguez]]></name>
@@ -18,7 +18,7 @@
     <link href="http://fabiolrodriguez.github.io/blog/2015/10/28/ola-octopress/"/>
     <updated>2015-10-28T15:12:06-02:00</updated>
     <id>http://fabiolrodriguez.github.io/blog/2015/10/28/ola-octopress</id>
-    <content type="html"><![CDATA[<p>Já fazia algum tempo que eu não escrevia com certa regularidade e, sempre ao final destes períodos começo a ter tremedeira. Nos últimos meses, quando cogitei voltar a escrever, estava decidido a usar meu bom e velho conhecido <a href=" https://wordpress.org/">Wordpress</a>.</p>
+    <content type="html"><![CDATA[<p>Já fazia algum tempo que eu não escrevia com certa regularidade e, sempre ao final destes períodos começo a ter tremedeira. Nos últimos meses, quando cogitei voltar a escrever, estava decidido a usar meu bom e velho conhecido <a href=" https://wordpress.org/" target="_blank">Wordpress</a>.</p>
 
 <p>Afinal, ele é robusto, eficiente, amplamente utilizado e possui uma comunidade ativa.</p>
 
@@ -28,7 +28,7 @@
 
 <p>Só quero escrever, da maneira mais simples possível (e com o menor custo possível também).</p>
 
-<p>Foi durante algumas pesquisas que encontrei a plataforma <a href="http://octopress.org/">Octopress.</a></p>
+<p>Foi durante algumas pesquisas que encontrei a plataforma <a href="http://octopress.org/" target="_blank">Octopress.</a></p>
 
 <p><img class="center <a" src="href="http://i.imgur.com/ezNxTFA.png">http://i.imgur.com/ezNxTFA.png</a>"></p>
 
@@ -48,7 +48,7 @@
 </span><span class='line'>&lt;p&gt;
 </span></code></pre></td></tr></table></div></figure></p>
 
-<p>Depois vamos clonar o repositório do Octopress no <a href="https://github.com/">Github</a> e fazer a instalação.</p>
+<p>Depois vamos clonar o repositório do Octopress no <a href="https://github.com/" target="_blank">Github</a> e fazer a instalação.</p>
 
 <p><figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
