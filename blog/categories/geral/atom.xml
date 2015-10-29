@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Geral | Fabio Rodriguez]]></title>
   <link href="http://fabiolrodriguez.github.io/blog/categories/geral/atom.xml" rel="self"/>
   <link href="http://fabiolrodriguez.github.io/"/>
-  <updated>2015-10-28T17:42:10-02:00</updated>
+  <updated>2015-10-29T09:49:22-02:00</updated>
   <id>http://fabiolrodriguez.github.io/</id>
   <author>
     <name><![CDATA[Fabio Rodriguez]]></name>
@@ -18,13 +18,13 @@
     <link href="http://fabiolrodriguez.github.io/blog/2015/10/28/ola-octopress/"/>
     <updated>2015-10-28T15:12:06-02:00</updated>
     <id>http://fabiolrodriguez.github.io/blog/2015/10/28/ola-octopress</id>
-    <content type="html"><![CDATA[<p>Já fazia algum tempo que eu não escrevia com certa regularidade e, sempre ao final destes períodos começo a ter tremedeira. Nos últimos meses, quando cogitei voltar a escrever, estava decidido a usar meu bom e velho conhecido Wordpress.</p>
+    <content type="html"><![CDATA[<p>Já fazia algum tempo que eu não escrevia com certa regularidade e, sempre ao final destes períodos começo a ter tremedeira. Nos últimos meses, quando cogitei voltar a escrever, estava decidido a usar meu bom e velho conhecido [Wordpress] <a href="https://wordpress.org/.">https://wordpress.org/.</a></p>
 
 <p>Afinal, ele é robusto, eficiente, amplamente utilizado e possui uma comunidade ativa.</p>
 
 <p>Só tem um porém, talvez seja muito para o que eu preciso!</p>
 
-<p>Não quer um site amplamente acessado, cheio de plugins para SEO, podcasts agregado, gerenciamento de um milhão de coisas.</p>
+<p>Não quero um site amplamente acessado, cheio de plugins para SEO, podcasts agregado, gerenciamento de um milhão de coisas.</p>
 
 <p>Só quero escrever, da maneira mais simples possível (e com o menor custo possível também).</p>
 
