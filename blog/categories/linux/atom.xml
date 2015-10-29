@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Linux, | Fabio Rodriguez]]></title>
+  <link href="http://fabiolrodriguez.github.io/blog/categories/linux/atom.xml" rel="self"/>
+  <link href="http://fabiolrodriguez.github.io/"/>
+  <updated>2015-10-29T16:29:53-02:00</updated>
+  <id>http://fabiolrodriguez.github.io/</id>
+  <author>
+    <name><![CDATA[Fabio Rodriguez]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[5 Motivos Para Você Começar a Estudar Docker Hoje!]]></title>
+    <link href="http://fabiolrodriguez.github.io/blog/2015/10/29/5-motivos-para-voce-comecar-a-estudar-docker-hoje/"/>
+    <updated>2015-10-29T15:43:55-02:00</updated>
+    <id>http://fabiolrodriguez.github.io/blog/2015/10/29/5-motivos-para-voce-comecar-a-estudar-docker-hoje</id>
+    <content type="html"><![CDATA[<p>Docker é um gerenciar do contâiners que roda originalmente no Linux, mas já esta no OSX e até no Windows.</p>
+
+<p>Basicamente, é um sistema refinado de isolamento de processos e gerenciamento de recursos, atravéz de contâiners. Um contâiner lembra um pouco uma máquina virtual, porém ao invéz de subir todo um sistema operacional independente, o Kernelé compartilhado com o host. Este fator aumenta a agilidade e reduz o uso de processamento, memória e I/O em relação as vms tradicionais.</p>
+
+<p><img src="center%20http://i.imgur.com/r11lUnF.png" title="Docker x VM" alt="Docker vs VM" /></p>
+
+<h2>Aprender novos conceitos</h2>
+
+<h2>Só se fala em Docker</h2>
+
+<h2>Muda drasticamente o deploy de aplicações</h2>
+
+<h2>Tecnologia disruptiva</h2>
+
+<p>De tempos em tempos, é comum o surgimente de novos conceitos, que  costumam derrubar o que conhecemos e exigir uma nova curva de aprendizado. Basta lembrarmos a alguns anos, quando houve o boom da virtualização e só se falava nisso.</p>
+
+<p>Tudo indica que a bola da vez agora é o Docker!</p>
+
+<h2>Bem estruturado e divertido!</h2>
+]]></content>
+  </entry>
+  
+</feed>
