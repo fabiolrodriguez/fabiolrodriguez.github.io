@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Geral | Fabio Rodriguez]]></title>
   <link href="http://fabiolrodriguez.github.io/blog/categories/geral/atom.xml" rel="self"/>
   <link href="http://fabiolrodriguez.github.io/"/>
-  <updated>2015-10-29T09:50:58-02:00</updated>
+  <updated>2015-10-29T09:54:33-02:00</updated>
   <id>http://fabiolrodriguez.github.io/</id>
   <author>
     <name><![CDATA[Fabio Rodriguez]]></name>
@@ -28,7 +28,7 @@
 
 <p>Só quero escrever, da maneira mais simples possível (e com o menor custo possível também).</p>
 
-<p>Foi durante algumas pesquisas que encontrei a plataforma Octopress.</p>
+<p>Foi durante algumas pesquisas que encontrei a plataforma <a href="http://octopress.org/">Octopress.</a></p>
 
 <p><img class="center <a" src="href="http://i.imgur.com/ezNxTFA.png">http://i.imgur.com/ezNxTFA.png</a>"></p>
 
@@ -48,7 +48,7 @@
 </span><span class='line'>&lt;p&gt;
 </span></code></pre></td></tr></table></div></figure></p>
 
-<p>Depois vamos clonar o repositório do Octopress no Github e fazer a instalação.</p>
+<p>Depois vamos clonar o repositório do Octopress no <a href="https://github.com/">Github</a> e fazer a instalação.</p>
 
 <p><figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
@@ -132,7 +132,7 @@
 
 <p>será criado o arquivo &hellip;/octopress/source/_posts, que deve ser editado e escrito o post utilizando a linguagem Markdown.</p>
 
-<p>Depois de escrito, vamos publicar!</p>
+<p>Agora só falta publicar!</p>
 
 <p><figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
