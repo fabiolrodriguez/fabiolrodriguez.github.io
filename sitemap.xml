@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>http://fabiolrodriguez.github.io/blog/2015/11/08/como-usar-o-reddit-de-maneira-produtiva/</loc>
+    <lastmod>2015-11-08T18:39:48-02:00</lastmod>
+  </url>
+  <url>
     <loc>http://fabiolrodriguez.github.io/blog/2015/10/29/5-motivos-para-voce-comecar-a-estudar-docker-hoje/</loc>
     <lastmod>2015-10-29T15:43:55-02:00</lastmod>
   </url>
@@ -22,5 +26,11 @@
   </url>
   <url>
     <loc>http://fabiolrodriguez.github.io/blog/categories/docker/</loc>
+  </url>
+  <url>
+    <loc>http://fabiolrodriguez.github.io/blog/categories/internet/</loc>
+  </url>
+  <url>
+    <loc>http://fabiolrodriguez.github.io/blog/categories/reddit/</loc>
   </url>
 </urlset>
