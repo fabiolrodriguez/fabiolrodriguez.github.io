@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>http://fabiolrodriguez.github.io/blog/2015/12/14/boicote-os-boicotes/</loc>
+    <lastmod>2015-12-14T15:56:07-02:00</lastmod>
+  </url>
+  <url>
     <loc>http://fabiolrodriguez.github.io/blog/2015/11/19/o-que-optimus-prime-me-ensinou-sobre-lideranca/</loc>
     <lastmod>2015-11-19T11:56:14-02:00</lastmod>
   </url>
@@ -29,5 +33,8 @@
   </url>
   <url>
     <loc>http://fabiolrodriguez.github.io/blog/categories/lideranca/</loc>
+  </url>
+  <url>
+    <loc>http://fabiolrodriguez.github.io/blog/categories/opensource/</loc>
   </url>
 </urlset>

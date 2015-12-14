@@ -4,7 +4,7 @@
   <title><![CDATA[Fabio Rodriguez]]></title>
   <link href="http://fabiolrodriguez.github.io/atom.xml" rel="self"/>
   <link href="http://fabiolrodriguez.github.io/"/>
-  <updated>2015-11-19T14:49:19-02:00</updated>
+  <updated>2015-12-14T16:25:02-02:00</updated>
   <id>http://fabiolrodriguez.github.io/</id>
   <author>
     <name><![CDATA[Fabio Rodriguez]]></name>
@@ -12,6 +12,82 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Boicote Os Boicotes!]]></title>
+    <link href="http://fabiolrodriguez.github.io/blog/2015/12/14/boicote-os-boicotes/"/>
+    <updated>2015-12-14T15:56:07-02:00</updated>
+    <id>http://fabiolrodriguez.github.io/blog/2015/12/14/boicote-os-boicotes</id>
+    <content type="html"><![CDATA[<p>A Internet é provavelmente uma  das ferramentas mais importantes de toda a história da humanidade. Através da rede temos acesso a uma quantidade absurda de informações, de maneira muito simples e relativamente fácil de se encontrar.</p>
+
+<p>Como todo bônus, temos aqui um ônus. Através da mesma via que qualquer um pode ter uma voz positiva e auxiliar na criação de conteúdo, temos uma leva de pessoas com comportamento destrutivo.</p>
+
+<p><img class="right" src="http://i.imgur.com/qIHHL8I.jpg"></p>
+
+<p>Dentre determinados grupos, qualquer opinião discordante torna as pessoas inimigas diretas. Para estes indivíduos não existe a possibilidade de coexistência com seres humanos que tenham um pensamento diferente. Sequer o respeito pela opinião alheia acontece, geralmente rotulando quem pensa diferente de nomes pouco samaritanos.</p>
+
+<p>Dentro desta introdução, queria inserir um contexto onde enxergo que se encaixam os opositores a determinados projetos Open source.</p>
+
+<h2>systemd</h2>
+
+<p>Quando o substituto do bom e velho SysV foi anunciado, com imenso apoio da gigante Red Hat, uma onda de pessoas se mostrou contrária a ideia de um init controlando grandes parcelas do sistema operacional como um todo.</p>
+
+<p>Confesso que, a primeira vista, também torci o nariz para o systemd.</p>
+
+<p>Estudei sobre o assunto, me informei e cheguei a conclusão que, como tudo, existem pontos positivos e negativos.</p>
+
+<p>A discussão seguiu e descobri que havia um site (pelo jeito já saiu do ar) chamado boycottsystemd.</p>
+
+<p>Li os argumentos postados, e realmente alguns faziam sentido enquanto outros eram absurdos. Porém, pensei, não quero ser esse tipo de pessoa.</p>
+
+<h2>Linux</h2>
+
+<p>Depois descobri que existia uma galera ainda mais extremista, que defende o ponto de vista que todo o Linux está desvirtuado e deveria ser boicotado (e todo mundo deveria usar variantes do BSD). O site do projeto ainda está no ar, podem conferir em: <a href="http://www.boycottlinux.org/">http://www.boycottlinux.org/</a></p>
+
+<h2>Docker</h2>
+
+<p>Como já publiquei por aqui, estudei bastante Docker atualmente e surpreendi com a inovação que a ferramenta pode agregar, assim como alguns paradigmas podem ser quebrados e mudar a maneira como realizamos certas tarefas.</p>
+
+<p>Adivinhem? uma galera discorda: <a href="http://www.boycottdocker.org/">http://www.boycottdocker.org/</a></p>
+
+<p>Todo mundo tem o direito, e deve, se expressar. Mas tenho algo a dizer para todo mundo que pensa assim:</p>
+
+<h2>O mercado não se importa com você</h2>
+
+<p>Mudanças vão acontecer, paradigmas vão mudar, ferramentas vão ficar obsoletas e dar lugar a outras, atualizações irão depreciar antigos comandos e tudo isso vai acontecer quer você queira, quer não.</p>
+
+<p><img class="center" src="http://m.memegen.com/m1vji5.jpg"></p>
+
+<p>A maioria destas ideias de boicote acaba não dando em nada, apenas absorvendo tempo dos envolvidos que poderia ser usado sabe para que? se atualizar!</p>
+
+<p>A cada mudança tecnológica vemos surgirem defensores árduos de continuar como está. Não sei se é por comodismo, falta de vontade em aprender algo novo ou o medo do desconhecido.</p>
+
+<p>O fato é que ninguém sai ganhando com isso, é um comportamento que só vai gerar atraso.</p>
+
+<h2>O mundo não para e quem parar fica pra trás!</h2>
+
+<p>Independente da sua área de atuação, seja TI, medicina, contabilidade ou qualquer coisa, temos que ter uma coisa em mente: Vivemos em um mundo globalizado, onde o ritmo de atualização é insano e acaba gerando a obrigação de nos manter atualizados.</p>
+
+<p><img class="center" src="http://i.imgur.com/a9fcuTd.png"></p>
+
+<p>Não quer aprender systemd? OK, continue no bom e velho init.d. Não gostou do Docker e nem quer saber do que se trata? Sem problemas, continue desenvolvendo suas aplicações e montando sua infraestrutura da mesma maneira de sempre.</p>
+
+<p>Porém, prepare-se para começar a ver oportunidades passarem pela sua frente e pessoas mais atualizadas agarrando-as.</p>
+
+<p>No filme <a href="https://pt.wikipedia.org/wiki/Pirates_of_Silicon_Valley">Pirates of Silycom Valley</a>, tem uma discussão entre Bill Gates e Steve Jobs que ilustra bem isso. No diálogo, Jobs questiona Gates sobre o contrato com com a IBM, dizendo que os sistemas dele é melhor.</p>
+
+<p>Gates responde de maneira enfática: “Isso não importa mais”.</p>
+
+<div class="embed-video-container"><iframe src="//www.youtube.com/embed/hG7rtLuOic4" allowfullscreen></iframe></div>
+
+
+<h2>Conclusão</h2>
+
+<p>A lição que tiramos disso é que nem sempre a melhor tecnologia se sobressai no mercado. Conheço gente que afirma que o Betamax era melhor que o VHS ou quem jure que o HD-DVD era superior ao Blu-ray. Onde estão o Betamax e o HD-DVD agora?</p>
+
+<p> É papel dos profissionais de tecnologia dominar as ferramentas que regem o mercado, ou fica pra trás.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[O Que Optimus Prime Me Ensinou Sobre Liderança]]></title>
