@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>http://fabiolrodriguez.github.io/blog/2016/03/30/como-usar-o-reddit-de-maneira-produtiva/</loc>
+    <lastmod>2016-03-30T12:59:43-03:00</lastmod>
+  </url>
+  <url>
     <loc>http://fabiolrodriguez.github.io/blog/2016/03/16/como-os-e-sports-prejudicam-a-diversao-e-o-que-fazer-para-mudar-isso/</loc>
     <lastmod>2016-03-16T12:59:03-03:00</lastmod>
   </url>
@@ -43,5 +47,11 @@
   </url>
   <url>
     <loc>http://fabiolrodriguez.github.io/blog/categories/e-sports/</loc>
+  </url>
+  <url>
+    <loc>http://fabiolrodriguez.github.io/blog/categories/internet/</loc>
+  </url>
+  <url>
+    <loc>http://fabiolrodriguez.github.io/blog/categories/reddit/</loc>
   </url>
 </urlset>
