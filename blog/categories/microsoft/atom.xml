@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: Linux, | Fabio Rodriguez]]></title>
-  <link href="http://fabiolrodriguez.github.io/blog/categories/linux/atom.xml" rel="self"/>
+  <title><![CDATA[Category: Microsoft | Fabio Rodriguez]]></title>
+  <link href="http://fabiolrodriguez.github.io/blog/categories/microsoft/atom.xml" rel="self"/>
   <link href="http://fabiolrodriguez.github.io/"/>
   <updated>2016-04-16T17:12:14-03:00</updated>
   <id>http://fabiolrodriguez.github.io/</id>
@@ -116,69 +116,6 @@ Porém, nos últimos anos, a escala se mostra bastante diferente. O crescimento 
 <p><a href="http://arstechnica.com/information-technology/2016/04/why-microsoft-needed-to-make-windows-run-linux-software/">http://arstechnica.com/information-technology/2016/04/why-microsoft-needed-to-make-windows-run-linux-software/</a></p>
 
 <p><a href="http://idgnow.com.br/ti-pessoal/2016/03/08/artigo-por-que-a-microsoft-nao-precisa-mais-do-windows/">http://idgnow.com.br/ti-pessoal/2016/03/08/artigo-por-que-a-microsoft-nao-precisa-mais-do-windows/</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[5 Motivos Para Você Começar a Estudar Docker Hoje!]]></title>
-    <link href="http://fabiolrodriguez.github.io/blog/2015/10/29/5-motivos-para-voce-comecar-a-estudar-docker-hoje/"/>
-    <updated>2015-10-29T15:43:55-02:00</updated>
-    <id>http://fabiolrodriguez.github.io/blog/2015/10/29/5-motivos-para-voce-comecar-a-estudar-docker-hoje</id>
-    <content type="html"><![CDATA[<p>Docker é um gerenciar de containers que roda originalmente no Linux, mas já esta no OSX e até no Windows.</p>
-
-<p>Basicamente, é um sistema refinado de isolamento de processos e gerenciamento de recursos, através de containers. Um container lembra um pouco uma máquina virtual, porém ao invés de subir todo um sistema operacional independente, o Kernel é compartilhado com o host. Este fator aumenta a agilidade e reduz o uso de processamento, memória e I/O em relação as vms tradicionais.</p>
-
-<p><img class="<a" src="href="http://i.imgur.com/r11lUnF.png">http://i.imgur.com/r11lUnF.png</a>"></p>
-
-<p>Segue alguns motivos pelos quais você deve começar a estudar Docker:</p>
-
-<h2>Aprender novos conceitos</h2>
-
-<p>Temos uma tendência natural a nos estagnar. Depois de alguns anos de carreira, você deve continuar estudando claro, mas geralmente são assuntos dos quais você tem alguma ideia e desbrava mais a fundo, como aprender um framework diferente, a instalação de um novo serviço de e-mail, etc.</p>
-
-<p>Quando estudei Docker, eu não conhecia nada sobre containers, e isso foi muito bacana. Depois de tanto tempo, voltar a estudar um assunto realmente do zero é fascinante, pois a curva de aprendizado no início é incrivelmente mais rápida e acabamos nos esquecendo disso.</p>
-
-<h2>Só se fala em Docker</h2>
-
-<p>É fato, Docker é a menina dos olhos do mundo Linux na atualidade.</p>
-
-<p>Pode observar, em todos os eventos, webminars, cursos, canais do Youtube e sites/blogs sobre Linux e cultura open source, o Docker é assunto constante.</p>
-
-<p>Várias grandes empresas estão apostando na tecnologia, como Amazon, Google e etc. Não deve demorar muito para o assunto começar a ser exigido no currículo dos profissionais, seja de infraestrutura ou desenvolvimento.</p>
-
-<h2>Muda drasticamente o deploy de aplicações</h2>
-
-<p><img class="center <a" src="href="http://i.imgur.com/LZZ1Njm.jpg">http://i.imgur.com/LZZ1Njm.jpg</a>"></p>
-
-<p>Aquela história do dev gerar um pacote, passar para a infra subir no servidor de produção, fazer o deploy no servidor de aplicação e de repente, BUM, um problema com dependências bagunça tudo e é necessário algum desenvolvedor para ajudar a arrumar o ambiente de produção.</p>
-
-<p>Não é muito mais fácil pegar um container, do jeitinho que ele foi desenvolvido, e jogar para a produção?</p>
-
-<p>Pense nisso</p>
-
-<h2>Tecnologia disruptiva</h2>
-
-<p>De tempos em tempos, é comum o surgimento de novos conceitos, que  costumam derrubar o que conhecemos e exigir uma nova curva de aprendizado. Basta lembrarmos a alguns anos, quando houve o boom da virtualização e só se falava nisso.</p>
-
-<p>Tudo indica que a bola da vez agora é o Docker!</p>
-
-<h2>Bem estruturado e divertido!</h2>
-
-<p>O projeto do Docker é muito bem estruturado, documentado e tem uma comunidade bastante ativa. É fácil encontrar informação, seja no <a href="https://docs.docker.com">site oficial</a>, no <a href="https://www.reddit.com/r/docker">Reddit</a> ou em blogs.</p>
-
-<p>Ao começar seus estudos, você terá uma grata surpresa, é divertido!</p>
-
-<p>Subir um ambiente inteiro com um comando , em alguns segundos, fazer seus testes e depois matar esse ambiente é show!</p>
-
-<p>Para quem se interessou, eu fiz dois cursos rápidos no Cloud Academy (tem 7 dias de trial, e dá para terminar os dois neste período) que achei bem interessantes:</p>
-
-<p><a href="https://cloudacademy.com/cloud-computing/getting-started-with-docker-course/">https://cloudacademy.com/cloud-computing/getting-started-with-docker-course/</a></p>
-
-<p><a href="https://cloudacademy.com/cloud-computing/docker-advanced-concepts-course/">https://cloudacademy.com/cloud-computing/docker-advanced-concepts-course/</a></p>
-
-<p>Também indico os livros <a href="http://shop.oreilly.com/product/0636920036142.do">Docker Up &amp; Running</a> e o <a href="http://www.dockerbook.com/">The Docker Book</a></p>
-
-<p>Até a próxima!</p>
 ]]></content>
   </entry>
   

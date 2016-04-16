@@ -4,7 +4,7 @@
   <title><![CDATA[Fabio Rodriguez]]></title>
   <link href="http://fabiolrodriguez.github.io/atom.xml" rel="self"/>
   <link href="http://fabiolrodriguez.github.io/"/>
-  <updated>2016-03-31T16:12:26-03:00</updated>
+  <updated>2016-04-16T17:12:14-03:00</updated>
   <id>http://fabiolrodriguez.github.io/</id>
   <author>
     <name><![CDATA[Fabio Rodriguez]]></name>
@@ -12,6 +12,112 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[A Microsoft Não Ama O Linux. Precisa Dele!]]></title>
+    <link href="http://fabiolrodriguez.github.io/blog/2016/04/16/a-microsoft-nao-ama-o-linux/"/>
+    <updated>2016-04-16T16:32:25-03:00</updated>
+    <id>http://fabiolrodriguez.github.io/blog/2016/04/16/a-microsoft-nao-ama-o-linux</id>
+    <content type="html"><![CDATA[<p><img class="center" src="http://i.imgur.com/Lse3o74.png" title="" ></p>
+
+<p>Desde o anúncio da inusitada parceria entre as empresas Microsoft, (gigante corporativa responsável pelo <em>Windows</em>, <em>Office</em>, <em>Xbox</em> e diversos outros produtos) e a Canonical, que é responsável pela distribuição de Linux <em>Ubuntu</em>, entre outros produtos baseados no mesmo, o mundo <em>open source</em> encontra-se em burburinho.</p>
+
+<p>Historicamente, a Microsoft sempre foi vista como uma vilã por muitos usuários Linux. Acredito que estes cidadãos imaginavam que Bill Gates (que já se afastou da companhia a tempos) passava o dia de terno preto, sentado em uma escritório panorâmico traçando planos para acabar com o Linux e todo o software livre.</p>
+
+<p>Já a Canonical também não é das mais bem vistas pelos usuários mais radicais (carinhosamente conhecidos como <em>Xiitas</em>), devido a suas políticas de parceria com a Amazon, fornecendo dados de pesquisa dos usuários de Ubuntu e utilizando estes metadados para oferecer publicidade como parte dos resultados de pesquisas.</p>
+
+<p>O fato que é que o esforço colaborativo de ambas irá trazer para o Windows 10 o <strong>Windows Subsystem for Linux, ou WSL</strong>.</p>
+
+<p>Basicamente o <em>WSL</em> vai incorporar o <em>shell</em> do Linux ao Windows, possibilitando alguns comandos como <em>sed</em>, <em>vi</em>, <em>find</em> e <em>gcc</em> sejam executados nativamente no sistema operacional da Microsoft.</p>
+
+<p>Continue lendo este artigo para entender melhor alguns pontos:</p>
+
+<ul>
+<li>Porque a Microsoft não depende mais do Windows.</li>
+<li>Qual é o nicho de mercado que o <em>WSL</em> pretende atingir.</li>
+<li>O que ambas as empresas tem a ganhar com isso?</li>
+<li>Quem mais vai se beneficiar desta integração ?</li>
+</ul>
+
+
+<h2>Alguns fatos sobre o mercado de sistemas operacionais.</h2>
+
+<ul>
+<li>A Soma dos sistemas Windows 7, 8, 10, Vista e XP detém aproximadamente 85% do total de desktops e notebooks.</li>
+<li>O sistema OSX da Apple tem uma fatia de cerca de 5% do total de mercado.</li>
+<li>Google e Facebook tem suas estruturas sustentadas por servidores Linux.</li>
+<li>83% das empresas executam Linux em seus servidores.</li>
+</ul>
+
+
+<p>Vamos entender um pouco o que levou a parceria.</p>
+
+<h2>O Windows não é mais o carro chefe do faturamento da Microsoft.</h2>
+
+<p><img class="center" src="http://i.imgur.com/sdMfBOA.jpg"></p>
+
+<p>Antes de mais nada, devemos entender o <strong>papel do Windows no fluxo de caixa atual da Microsoft</strong>.</p>
+
+<p>No passado, licenças de Windows eram sinônimo de lucro e a sustentação da base financeira da empresa, assim com o pacote <em>Office</em>.
+Porém, nos últimos anos, a escala se mostra bastante diferente. O crescimento da nuvem, com serviços como <em>Azure</em> e <em>Office 365</em> tornaram-se o carro chefe do faturamento, seguidos pelos <em>Xbox</em>.</p>
+
+<p>Em seguida, vem o pacote <em>Office</em> e só então o Windows, responsável por cerca de 10% do fluxo de caixa.</p>
+
+<p>Claramente as diversas parcerias, como com instituições de ensino e fabricantes de hardware sacrificaram uma parcela dos lucros para manter a dominância do mercado.</p>
+
+<p>Mas se a maioria dos computadores e notebooks ainda roda Windows, para que a Microsoft precisa atrair novos usuários?</p>
+
+<h2>O objetivo é atrair os desenvolvedores.</h2>
+
+<p><img class="center" src="http://imgur.com/lCuTKAXl.png"></p>
+
+<p>Há longínquos 15 anos no passado, uma estação de trabalho Windows era o básico para a maioria dos desenvolvedores. As tecnologias disponíveis na época, como <em>Delphi</em> e<em> Visual Basic</em>, assim como os a predominância de aplicativos para desktop, amarravam o desenvolvedor ao Windows.</p>
+
+<p>O crescimento da Internet, e de seus sistemas hospedados na nuvem, fizeram emergir novas tecnologias, diferentes das anteriores e não mais dependentes do Windows. Ninguém depende de determinado sistema operacional para programar em <em>Ruby</em>, <em>Java</em> ou <em>php</em>.</p>
+
+<p>Como se não bastasse, o boom do Docker nos últimos dois anos mostrou como os <em>containers</em> tem a possibilidade de tornar obsoletos os sistemas de virtualização.</p>
+
+<h2>Um sistema operacional é tão bom quanto seus aplicativos.</h2>
+
+<p><img class="center" src="http://i.imgur.com/2JGC2u0.jpg"></p>
+
+<p>O primeiro computador de sucesso da Apple, o saudoso<em> Apple II</em> tem boa parte do seu sucesso creditado a um aplicativo de planilhas chamado <em>VisiCalc</em>, que era uma espécie de <em>Excel</em> da época.</p>
+
+<p><img class="center" src="http://imgur.com/oSpaDKfl.png"></p>
+
+<p>O <em>VisiCalc</em> foi o primeiro exemplo de <em>Killer App</em> da história. Um <em>Killer App</em> é um software capaz de impulsionar as vendas de determinado equipamento. Este exemplo é muito utilizado pela industria dos games, lançando um jogo popular de maneira exclusiva para vender determinado console.</p>
+
+<p>O que esta história nos ensina? Quem um aplicativo pode determinar o sucesso de uma plataforma inteira.</p>
+
+<p>Quem faz estes aplicativos? Os desenvolvedores, claro.</p>
+
+<p>Como muitos destes desenvolvedores foram ao longo dos anos migrando para sistemas OSX ou Linux, a Microsoft ligou um sinal de alerta. Identificou que precisava de uma forma para os desenvolvedores se sentirem novamente confortáveis no Windows.</p>
+
+<h2>Conclusão</h2>
+
+<p>Recapitulando alguns pontos citados:</p>
+
+<ul>
+<li>O Windows é responsável por apenas 10% do faturamento da Microsoft.</li>
+<li>Nos últimos anos, diversos desenvolvedores migraram para sistemas OSX e Linux devido as ferramentas rodarem melhor (ou exclusivamente) nestes sistemas.</li>
+<li>O objetivo no <em>WSL</em> é atrair esses desenvolvedores de volta para o Windows.</li>
+<li>Um sistema operacional depende dos aplicativos para manter seu ecossistema.</li>
+</ul>
+
+
+<p>Se esta parceria entre a Canonical e a Microsoft será benéfica, só o tempo pode nos dizer. Recomendo a excelente entrevista do <strong>Diolinux</strong> com a Canonical, onde foram respondidas algumas dúvidas sobre o caso: <a href="http://www.diolinux.com.br/2016/04/ubuntu-on-windows-falamos-com-canonical.html">Entrevista Aqui</a></p>
+
+<p>Eu particularmente, vou gostar de, nas raras vezes que uso Windows, pode abrir um terminal para navegar pelas pastas e editar meus arquivos no grande <em>Vi</em>.</p>
+
+<p>Fontes:</p>
+
+<p><a href="http://corporate.canaltech.com.br/noticia/linux/Estudo-mostra-que-83-das-empresas-executam-Linux-em-seus-servidores/">http://corporate.canaltech.com.br/noticia/linux/Estudo-mostra-que-83-das-empresas-executam-Linux-em-seus-servidores/</a></p>
+
+<p><a href="http://arstechnica.com/information-technology/2016/04/why-microsoft-needed-to-make-windows-run-linux-software/">http://arstechnica.com/information-technology/2016/04/why-microsoft-needed-to-make-windows-run-linux-software/</a></p>
+
+<p><a href="http://idgnow.com.br/ti-pessoal/2016/03/08/artigo-por-que-a-microsoft-nao-precisa-mais-do-windows/">http://idgnow.com.br/ti-pessoal/2016/03/08/artigo-por-que-a-microsoft-nao-precisa-mais-do-windows/</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Como Usar O Reddit De Maneira Produtiva]]></title>
@@ -376,6 +482,81 @@ era uma zona de cabos, monitores de tubo e computadores espalhados.</p>
 <h2>Conclusão</h2>
 
 <p>Sempre que leio textos, vejo palestras ou vou a treinamentos sobre liderança, é inevitável a comparação com os conceitos demonstrados neste desenho. Em uma linguagem simples o suficiente para que qualquer criança entenda, Optimus Prime me ensinou como um líder de verdade deve ser.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Como Usar O Reddit De Maneira Produtiva.]]></title>
+    <link href="http://fabiolrodriguez.github.io/blog/2015/11/08/como-usar-o-reddit-de-maneira-produtiva/"/>
+    <updated>2015-11-08T18:39:48-02:00</updated>
+    <id>http://fabiolrodriguez.github.io/blog/2015/11/08/como-usar-o-reddit-de-maneira-produtiva</id>
+    <content type="html"><![CDATA[<p>Conforme vamos ficando mais velhos, temos uma tendência a nos estacionarmos nas tecnologias que já conhecemos, sejam redes sociais, sistemas operacionais, linguagens de programação ou qualquer outra coisa envolvida no seu dia a dia.</p>
+
+<p>Mas não se culpe! São tantas ferramentas surgindo todos os dias que já  é difícil saber o que cada uma delas faz, ainda mais como utilizá-la!</p>
+
+<p>Um destes casos que eu sempre torci o nariz foi o Reddit.</p>
+
+<p><img src="http://imgur.com/4waHg38l.png"></p>
+
+<p>Havia tentado usar algumas vezes e achei o site muito confuso, ruim de pesquisar, estranho de visualizar as informações e com muitos assuntos misturados.</p>
+
+<p>Porém, dedicando algum tempo, consegui entender o princípio do Reddit e passei a utilizá-lo de maneira prática e, hoje, com uma olhada de 15 minutos por dia consigo saber das novidades nos assuntos que me interessam.</p>
+
+<p>Para quem não conhece, o <a href="https://www.reddit.com/">https://www.reddit.com/</a> é uma mistura de fórum e rede social. Realmente possui uma interface feia e confusa, mas este problema pode ser contornado.</p>
+
+<h2>Qual a vantagem de usar o Reddit ?</h2>
+
+<p>Sabe aqueles sites de notícias nacionais que você gosta ? Não importa o assunto, praticamente tudo sai primeiro no reddit. Lá é um grande hub de informações, subdividido em assuntos específicos.</p>
+
+<p>É possível se informar sobre ciência, cinema, Linux, costura, artesanato, qualquer coisa que você imaginar.</p>
+
+<h2>Como os assuntos são organizados ?</h2>
+
+<p>No Reddit os assuntos são organizados em subreddits. Uma subreddit é como se fosse um tópico de um fórum, determinado para cada assunto.</p>
+
+<p>Por exemplo, para saber sobre linux, acessamos <a href="https://www.reddit.com/r/linux">https://www.reddit.com/r/linux</a> , para acompanharmos fotos do espaço <a href="https://www.reddit.com/r/space">https://www.reddit.com/r/space</a> , sempre seguindo a estrutura de /r/<assunto>.</p>
+
+<h2>O site é muito confuso, como entender e navegar melhor por ele?</h2>
+
+<p>Se você acessar o reddit sem criar uma conta, o index que será exibido será um mix com todos os tópicos e subreddits que estão em evidência. Vai ter muita informação na sua tela e provavelmente a maior parte nem te interessa.</p>
+
+<h3>O primeiro passo é criar uma conta.</h3>
+
+<p><img src="http://imgur.com/Y3tiINpl.png"></p>
+
+<h3>Assine as subreddits de seu interesse</h3>
+
+<p>Ao logar na sua conta, algumas subreddits virão adicionadas por padrão. Se você acessar o endereço <a href="https://www.reddit.com/subreddits/">https://www.reddit.com/subreddits/</a> , poderá ver TODAS as subreddits. Porém o que interessa é o quadro que fica a sua direita “YOUR FRONT PAGE SUBREDDITS”.</p>
+
+<p><img src="http://imgur.com/1vuVKoml.png"></p>
+
+<p>Faça uma limpeza ali, clicando em <em>unsubscribe</em> nas subreddits padrão e assine as que te interessam clicando em <em>subscribe</em>.</p>
+
+<p>Toda vez que você se logar, na sua página inicial serão exibidas apenas as subreddits do seu interesse, possibilitando uma maneira rápida e prática de consumir informação.</p>
+
+<h2>Melhore a interface do usuário</h2>
+
+<p>Se você já criou uma conta, se logou e limpou suas subreddits, agora tenho uma dica para quem usa o navegador Google Chrome.</p>
+
+<p>Existe uma extensão chamada <a href="https://chrome.google.com/webstore/detail/reditr-the-best-reddit-cl/pmfcbbijgnhoebddbjpmlikabnbnddgb?utm_source=chrome-ntp-icon">Reditr</a> que realmente melhora a experiência de uso, pois tem um visual muito mais agradável.</p>
+
+<p><img src="http://i.imgur.com/uwWEMPZ.png"></p>
+
+<p>Para finalizar, gostaria de deixar como dica algumas subreddits que eu sigo e gosto bastante:</p>
+
+<ul>
+<li>/r/linux</li>
+<li>/r/docker</li>
+<li>/r/science</li>
+<li>/r/DIY</li>
+<li>/r/lifehacks</li>
+<li>/r/unixporn</li>
+</ul>
+
+
+<p>Espero ter tirado dúvidas sobre a ferramenta.</p>
+
+<p>Até a próxima!</p>
 ]]></content>
   </entry>
   

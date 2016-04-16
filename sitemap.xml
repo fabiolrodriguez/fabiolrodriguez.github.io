@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>http://fabiolrodriguez.github.io/blog/2016/04/16/a-microsoft-nao-ama-o-linux/</loc>
+    <lastmod>2016-04-16T16:32:25-03:00</lastmod>
+  </url>
+  <url>
     <loc>http://fabiolrodriguez.github.io/blog/2016/03/30/como-usar-o-reddit-de-maneira-produtiva/</loc>
     <lastmod>2016-03-30T12:59:43-03:00</lastmod>
   </url>
@@ -17,6 +21,10 @@
     <lastmod>2015-11-19T11:56:14-02:00</lastmod>
   </url>
   <url>
+    <loc>http://fabiolrodriguez.github.io/blog/2015/11/08/como-usar-o-reddit-de-maneira-produtiva/</loc>
+    <lastmod>2015-11-08T18:39:48-02:00</lastmod>
+  </url>
+  <url>
     <loc>http://fabiolrodriguez.github.io/blog/2015/10/29/5-motivos-para-voce-comecar-a-estudar-docker-hoje/</loc>
     <lastmod>2015-10-29T15:43:55-02:00</lastmod>
   </url>
@@ -28,13 +36,7 @@
     <loc>http://fabiolrodriguez.github.io/</loc>
   </url>
   <url>
-    <loc>http://fabiolrodriguez.github.io/blog/</loc>
-  </url>
-  <url>
     <loc>http://fabiolrodriguez.github.io/blog/archives/</loc>
-  </url>
-  <url>
-    <loc>http://fabiolrodriguez.github.io/archives/</loc>
   </url>
   <url>
     <loc>http://fabiolrodriguez.github.io/blog/categories/geral/</loc>
@@ -46,6 +48,12 @@
     <loc>http://fabiolrodriguez.github.io/blog/categories/docker/</loc>
   </url>
   <url>
+    <loc>http://fabiolrodriguez.github.io/blog/categories/internet/</loc>
+  </url>
+  <url>
+    <loc>http://fabiolrodriguez.github.io/blog/categories/reddit/</loc>
+  </url>
+  <url>
     <loc>http://fabiolrodriguez.github.io/blog/categories/lideranca/</loc>
   </url>
   <url>
@@ -55,9 +63,6 @@
     <loc>http://fabiolrodriguez.github.io/blog/categories/e-sports/</loc>
   </url>
   <url>
-    <loc>http://fabiolrodriguez.github.io/blog/categories/internet/</loc>
-  </url>
-  <url>
-    <loc>http://fabiolrodriguez.github.io/blog/categories/reddit/</loc>
+    <loc>http://fabiolrodriguez.github.io/blog/categories/microsoft/</loc>
   </url>
 </urlset>

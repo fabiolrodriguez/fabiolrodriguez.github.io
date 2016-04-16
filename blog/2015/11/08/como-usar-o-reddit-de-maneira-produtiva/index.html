@@ -5,11 +5,11 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Olá Octopress - Fabio Rodriguez</title>
+  <title>Como Usar O Reddit De Maneira Produtiva. - Fabio Rodriguez</title>
   <meta name="author" content="Fabio Rodriguez">
 
   
-  <meta name="description" content="Já fazia algum tempo que eu não escrevia com certa regularidade e, sempre ao final destes períodos começo a ter tremedeira. Nos últimos meses, quando &hellip;">
+  <meta name="description" content="Conforme vamos ficando mais velhos, temos uma tendência a nos estacionarmos nas tecnologias que já conhecemos, sejam redes sociais, sistemas &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -18,7 +18,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://fabiolrodriguez.github.io/blog/2015/10/28/ola-octopress">
+  <link rel="canonical" href="http://fabiolrodriguez.github.io/blog/2015/11/08/como-usar-o-reddit-de-maneira-produtiva">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/atom.xml" rel="alternate" title="Fabio Rodriguez" type="application/atom+xml">
@@ -75,7 +75,7 @@
   
   <header>
     
-      <h1 class="entry-title">Olá Octopress</h1>
+      <h1 class="entry-title">Como Usar O Reddit De Maneira Produtiva.</h1>
     
     
       <p class="meta">
@@ -92,123 +92,78 @@
 
 
 
-<time datetime="2015-10-28T15:12:06-02:00" pubdate data-updated="true">Oct 28th, 2015</time>
+<time datetime="2015-11-08T18:39:48-02:00" pubdate data-updated="true">Nov 8th, 2015</time>
         
       </p>
     
   </header>
 
 
-<div class="entry-content"><p>Já fazia algum tempo que eu não escrevia com certa regularidade e, sempre ao final destes períodos começo a ter tremedeira. Nos últimos meses, quando cogitei voltar a escrever, estava decidido a usar meu bom e velho conhecido <a href=" https://wordpress.org/" target="_blank">Wordpress</a>.</p>
+<div class="entry-content"><p>Conforme vamos ficando mais velhos, temos uma tendência a nos estacionarmos nas tecnologias que já conhecemos, sejam redes sociais, sistemas operacionais, linguagens de programação ou qualquer outra coisa envolvida no seu dia a dia.</p>
 
-<p>Afinal, ele é robusto, eficiente, amplamente utilizado e possui uma comunidade ativa.</p>
+<p>Mas não se culpe! São tantas ferramentas surgindo todos os dias que já  é difícil saber o que cada uma delas faz, ainda mais como utilizá-la!</p>
 
-<p>Só tem um porém, talvez seja muito para o que eu preciso!</p>
+<p>Um destes casos que eu sempre torci o nariz foi o Reddit.</p>
 
-<p>Não quero um site amplamente acessado, cheio de plugins para SEO, podcasts agregado, gerenciamento de um milhão de coisas.</p>
+<p><img src="http://imgur.com/4waHg38l.png"></p>
 
-<p>Só quero escrever, da maneira mais simples possível (e com o menor custo possível também).</p>
+<p>Havia tentado usar algumas vezes e achei o site muito confuso, ruim de pesquisar, estranho de visualizar as informações e com muitos assuntos misturados.</p>
 
-<p>Foi durante algumas pesquisas que encontrei a plataforma <a href="http://octopress.org/" target="_blank">Octopress.</a></p>
+<p>Porém, dedicando algum tempo, consegui entender o princípio do Reddit e passei a utilizá-lo de maneira prática e, hoje, com uma olhada de 15 minutos por dia consigo saber das novidades nos assuntos que me interessam.</p>
 
-<p><img class="center" src="http://i.imgur.com/ezNxTFA.png"></p>
+<p>Para quem não conhece, o <a href="https://www.reddit.com/">https://www.reddit.com/</a> é uma mistura de fórum e rede social. Realmente possui uma interface feia e confusa, mas este problema pode ser contornado.</p>
 
-<p>Sempre que exploramos algo novo, existe uma curva de aprendizado, então este primeiro post vai para compartilhar minhas anotações da instalação do Octopress utilizando Github Pages. Este procedimento foi executado no Fedora 22.</p>
+<h2>Qual a vantagem de usar o Reddit ?</h2>
 
-<p>Primeiro, instalamos os pré requisitos</p>
+<p>Sabe aqueles sites de notícias nacionais que você gosta ? Não importa o assunto, praticamente tudo sai primeiro no reddit. Lá é um grande hub de informações, subdividido em assuntos específicos.</p>
 
-<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-</pre></td><td class='code'><pre><code class='bash'><span class='line'>dnf install ruby rubygems ruby-devel rake git
-</span></code></pre></td></tr></table></div></figure>
+<p>É possível se informar sobre ciência, cinema, Linux, costura, artesanato, qualquer coisa que você imaginar.</p>
 
+<h2>Como os assuntos são organizados ?</h2>
 
-<p>Depois vamos clonar o repositório do Octopress no <a href="https://github.com/" target="_blank">Github</a> e fazer a instalação.</p>
+<p>No Reddit os assuntos são organizados em subreddits. Uma subreddit é como se fosse um tópico de um fórum, determinado para cada assunto.</p>
 
-<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-<span class='line-number'>5</span>
-<span class='line-number'>6</span>
-<span class='line-number'>7</span>
-<span class='line-number'>8</span>
-<span class='line-number'>9</span>
-<span class='line-number'>10</span>
-<span class='line-number'>11</span>
-</pre></td><td class='code'><pre><code class='bash'><span class='line'>git clone git://github.com/imathis/octopress.git octopress
-</span><span class='line'>
-</span><span class='line'><span class="nb">cd </span>octopress
-</span><span class='line'>
-</span><span class='line'>gem install RedCloth -v <span class="s1">&#39;4.2.9&#39;</span>
-</span><span class='line'>
-</span><span class='line'>gem install bundler
-</span><span class='line'>
-</span><span class='line'>bundle install
-</span><span class='line'>
-</span><span class='line'>rake install
-</span></code></pre></td></tr></table></div></figure>
+<p>Por exemplo, para saber sobre linux, acessamos <a href="https://www.reddit.com/r/linux">https://www.reddit.com/r/linux</a> , para acompanharmos fotos do espaço <a href="https://www.reddit.com/r/space">https://www.reddit.com/r/space</a> , sempre seguindo a estrutura de /r/<assunto>.</p>
 
+<h2>O site é muito confuso, como entender e navegar melhor por ele?</h2>
 
-<p>Agora só falta configurar as github pages:</p>
+<p>Se você acessar o reddit sem criar uma conta, o index que será exibido será um mix com todos os tópicos e subreddits que estão em evidência. Vai ter muita informação na sua tela e provavelmente a maior parte nem te interessa.</p>
 
-<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-</pre></td><td class='code'><pre><code class='bash'><span class='line'>rake setup_github_pages
-</span></code></pre></td></tr></table></div></figure>
+<h3>O primeiro passo é criar uma conta.</h3>
 
+<p><img src="http://imgur.com/Y3tiINpl.png"></p>
 
-<p>informar seu repositório <a href="https://github.com/username/username.github.io.git">https://github.com/username/username.github.io.git</a></p>
+<h3>Assine as subreddits de seu interesse</h3>
 
-<p>Antes de gerar o site, precisamos corrigir um bug no Gemfile do Octopress.</p>
+<p>Ao logar na sua conta, algumas subreddits virão adicionadas por padrão. Se você acessar o endereço <a href="https://www.reddit.com/subreddits/">https://www.reddit.com/subreddits/</a> , poderá ver TODAS as subreddits. Porém o que interessa é o quadro que fica a sua direita “YOUR FRONT PAGE SUBREDDITS”.</p>
 
-<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-</pre></td><td class='code'><pre><code class='bash'><span class='line'>vim Gemfile
-</span><span class='line'>
-</span><span class='line'>gem <span class="s1">&#39;json&#39;</span>
-</span></code></pre></td></tr></table></div></figure>
+<p><img src="http://imgur.com/1vuVKoml.png"></p>
 
+<p>Faça uma limpeza ali, clicando em <em>unsubscribe</em> nas subreddits padrão e assine as que te interessam clicando em <em>subscribe</em>.</p>
 
-<p>Para escrever um post:</p>
+<p>Toda vez que você se logar, na sua página inicial serão exibidas apenas as subreddits do seu interesse, possibilitando uma maneira rápida e prática de consumir informação.</p>
 
-<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-</pre></td><td class='code'><pre><code class='bash'><span class='line'>rake new_post<span class="o">[</span><span class="s2">&quot;o titulo do seu post&quot;</span><span class="o">]</span>
-</span></code></pre></td></tr></table></div></figure>
+<h2>Melhore a interface do usuário</h2>
 
+<p>Se você já criou uma conta, se logou e limpou suas subreddits, agora tenho uma dica para quem usa o navegador Google Chrome.</p>
 
-<p>será criado o arquivo &hellip;/octopress/source/_posts, que deve ser editado e escrito o post utilizando a linguagem Markdown.</p>
+<p>Existe uma extensão chamada <a href="https://chrome.google.com/webstore/detail/reditr-the-best-reddit-cl/pmfcbbijgnhoebddbjpmlikabnbnddgb?utm_source=chrome-ntp-icon">Reditr</a> que realmente melhora a experiência de uso, pois tem um visual muito mais agradável.</p>
 
-<p>Agora só falta publicar!</p>
+<p><img src="http://i.imgur.com/uwWEMPZ.png"></p>
 
-<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-</pre></td><td class='code'><pre><code class='bash'><span class='line'>rake generate
-</span><span class='line'>
-</span><span class='line'>rake deploy
-</span></code></pre></td></tr></table></div></figure>
-
-
-<p>Pela pouca experiêcia que tive, seguem minhas considerações:</p>
-
-<p>Vantagens sobre Wordpress:</p>
+<p>Para finalizar, gostaria de deixar como dica algumas subreddits que eu sigo e gosto bastante:</p>
 
 <ul>
-<li>Quase sem custos</li>
-<li>Hospedado no GitHub</li>
-<li>Sem banco de dados</li>
-<li>Posso escrever meus posts no VIM!</li>
+<li>/r/linux</li>
+<li>/r/docker</li>
+<li>/r/science</li>
+<li>/r/DIY</li>
+<li>/r/lifehacks</li>
+<li>/r/unixporn</li>
 </ul>
 
 
-<p>Desvantagens:</p>
-
-<ul>
-<li>Plataforma mais limitada</li>
-<li>Texto editado via Markdown</li>
-<li>Não possui uma escalabilidade tão grande.</li>
-</ul>
-
+<p>Espero ter tirado dúvidas sobre a ferramenta.</p>
 
 <p>Até a próxima!</p>
 </div>
@@ -234,12 +189,12 @@
 
 
 
-<time datetime="2015-10-28T15:12:06-02:00" pubdate data-updated="true">Oct 28th, 2015</time>
+<time datetime="2015-11-08T18:39:48-02:00" pubdate data-updated="true">Nov 8th, 2015</time>
       
 
 <span class="categories">
   
-    <a class='category' href='/blog/categories/geral/'>geral</a>
+    <a class='category' href='/blog/categories/internet/'>internet,</a>, <a class='category' href='/blog/categories/reddit/'>reddit</a>
   
 </span>
 
@@ -248,7 +203,7 @@
     
       <div class="sharing">
   
-  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://fabiolrodriguez.github.io/blog/2015/10/28/ola-octopress/" data-via="fabiolrodriguez" data-counturl="http://fabiolrodriguez.github.io/blog/2015/10/28/ola-octopress/" >Tweet</a>
+  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://fabiolrodriguez.github.io/blog/2015/11/08/como-usar-o-reddit-de-maneira-produtiva/" data-via="fabiolrodriguez" data-counturl="http://fabiolrodriguez.github.io/blog/2015/11/08/como-usar-o-reddit-de-maneira-produtiva/" >Tweet</a>
   
   
   
@@ -259,8 +214,10 @@
     
     <p class="meta">
       
+        <a class="basic-alignment left" href="/blog/2015/10/29/5-motivos-para-voce-comecar-a-estudar-docker-hoje/" title="Previous Post: 5 Motivos para você começar a estudar Docker hoje!">&laquo; 5 Motivos para você começar a estudar Docker hoje!</a>
       
-        <a class="basic-alignment right" href="/blog/2015/10/29/5-motivos-para-voce-comecar-a-estudar-docker-hoje/" title="Next Post: 5 Motivos para você começar a estudar Docker hoje!">5 Motivos para você começar a estudar Docker hoje! &raquo;</a>
+      
+        <a class="basic-alignment right" href="/blog/2015/11/19/o-que-optimus-prime-me-ensinou-sobre-lideranca/" title="Next Post: O que Optimus Prime me ensinou sobre Liderança">O que Optimus Prime me ensinou sobre Liderança &raquo;</a>
       
     </p>
   </footer>
@@ -345,8 +302,8 @@
       
         
         // var disqus_developer = 1;
-        var disqus_identifier = 'http://fabiolrodriguez.github.io/blog/2015/10/28/ola-octopress/';
-        var disqus_url = 'http://fabiolrodriguez.github.io/blog/2015/10/28/ola-octopress/';
+        var disqus_identifier = 'http://fabiolrodriguez.github.io/blog/2015/11/08/como-usar-o-reddit-de-maneira-produtiva/';
+        var disqus_url = 'http://fabiolrodriguez.github.io/blog/2015/11/08/como-usar-o-reddit-de-maneira-produtiva/';
         var disqus_script = 'embed.js';
       
     (function () {
